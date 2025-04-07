@@ -1,3 +1,6 @@
-# LTA-pm-practice
+## New Feature: Add Priority Summary Section
 
-This repository is for practicing version control, feature tracking, and GitHub collaboration as a PM.
+- Goal: Help stakeholders view task breakdown by urgency.
+- Owner: Product
+- Collaborators: Ops, Support
+- Target Release: v1.2
