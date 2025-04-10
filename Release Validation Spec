@@ -1,0 +1,43 @@
+## Release Validation Spec - Trigger High Priority Alerts
+
+Date: April 10, 2025
+
+### Feature Summary: 
+Document outlines the validation steps for triggering high priority alerts via Firestore and webhooks. 
+
+### What was merged: 
+Branch: 'Feature/cloud-function-spec'
+Pull Request: [I cant go back otherwise I will have to discard this whole document]
+
+### Release Confirmation:
+-[x] Pull Reuqest merged with no conflicts 
+-[x] README or spec file updated
+-[x] Cloud Function Step Created
+-[x] No github action errors (none were set up) 
+
+
+## Expected Outcome: 
+When a new 'featureRequest' document is added to firestore with: 
+-Priority = High
+-Reviewed = FALSE
+-> It will trigger a webhook (Simulating Slack Alert)
+-> Record is stored in Firestore for trriage. 
+
+
+### QA notes: 
+-Tested new airtable record creation.
+-Confirmed Zapier correctly filtered records
+-verified beeceptor recieved webhook 
+-verified firestore stored data correctly
+
+
+### Next Steps
+-Propose Slack integration (actual alerts to slack in production
+-Discuss with DevOps about setting error logging for failures 
+
+### Owner: 
+Antonio - Junior Product Coordinator 
+
+
+
+
